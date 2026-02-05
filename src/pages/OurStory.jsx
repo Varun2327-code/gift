@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import chatImg from '../assets/chat.png';
 import meetingImg from '../assets/first meet.jpeg';
 import momentsImg from '../assets/moment.jpeg';
-import todayImg from '../assets/first Gift.jpeg';
+import todayImg from '../assets/first gift.jpeg';
 
 const StoryCard = ({ title, date, text, image, index }) => {
     const isEven = index % 2 === 0;
