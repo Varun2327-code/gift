@@ -55,8 +55,8 @@ const Landing = () => {
     const [isError, setIsError] = useState(false);
 
     // Config
-    const TARGET_DATE = new Date("2026-02-08T19:10:00");
-    const PASSWORD = "foreverus";
+    const TARGET_DATE = new Date("2026-02-07T14:20:00");
+    const PASSWORD = "DEVU";
 
     const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
