@@ -377,7 +377,7 @@ const FinalSurprise = () => {
     const [activeTab, setActiveTab] = useState('main'); // 'main', 'coupons', 'bucket', 'notes'
 
     useEffect(() => {
-        const target = new Date("2026-02-08T00:00:00");
+        const target = new Date("2026-02-08T19:10:00");
         const interval = setInterval(() => {
             const now = new Date();
             const diff = target - now;
