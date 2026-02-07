@@ -92,7 +92,7 @@ const Landing = () => {
     };
 
     const handlePasscodeSubmit = () => {
-        if (passcodeInput.toLowerCase().trim() === PASSWORD) {
+        if (passcodeInput.trim().toLowerCase() === PASSWORD.toLowerCase()) {
             navigate('/story');
         } else {
             setIsError(true);
